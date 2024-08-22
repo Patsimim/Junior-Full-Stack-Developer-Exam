@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f9fafb;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+header > div:first-child {
+  flex: 1; 
+}
+
+header > div:nth-child(2) {
+  flex: 2;
+}
+
+header > div:last-child {
+  flex: 0; 
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #555555;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button .FontAwesomeIcon {
+  font-size: 16px; 
+}
+
+.FontAwesomeIcon {
+  font-size: 16px; 
+}

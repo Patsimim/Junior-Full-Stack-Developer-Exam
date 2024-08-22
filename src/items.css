@@ -1,0 +1,45 @@
+.image-holder{
+    border: 1px solid #ccc;
+    transition-duration:200ms;
+    transition-timing-function: ease-out;
+}
+
+.image-holder:hover {
+    border: 1px solid #777;
+    transform: scale(1.05,1.05);
+}
+
+.gallery{
+    
+    display: flex;
+    flex-direction: row; 
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+div.desc {
+    text-align: center;
+    width: 100%;
+}
+
+.desc .icon {
+    float: left !important;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.desc button{
+    float: right !important;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px; 
+    font-size: 12px; 
+    height: auto; 
+    line-height: 1; 
+}
+
+.gallery img{
+    height: 250px;
+    width:200px;
+}
